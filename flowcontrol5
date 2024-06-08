@@ -1,0 +1,22 @@
+package flow_control;
+import java.util.*;
+public class charisalpdigsplchar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter a char");
+		char a=sc.next().charAt(0);
+		if((int)a >=65 && (int)a<=91 || (int)a >=97 && (int)a<122) {
+			System.out.println("alphabet");
+		}
+		else if((int)a>=48 &&  (int)a<=57 ) {
+			System.out.println("digit");
+		}
+		else {
+			System.out.println("spl char");
+		}
+
+	}
+
+}
