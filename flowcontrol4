@@ -1,0 +1,18 @@
+package flow_control;
+
+public class alphabeticalorder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char x='e',y='a';
+		if((int)x>(int)y) {
+			System.out.print(y+","+x);
+		}
+		else {
+			System.out.print(x+","+y);
+		}
+
+	}
+
+}
+ 
